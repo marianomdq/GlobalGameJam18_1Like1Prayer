@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 6192ce64ca69e1b4c9d73aaa4379b05f
+timeCreated: 1517019096
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BIFURCADO
+    100002: BIFURCADO_001
+    100004: CUATRIFURCADO___
+    100006: CUATRIFURCADO____001
+    100008: CURVA
+    100010: CURVA_001
+    100012: //RootNode
+    100014: RECTO
+    100016: RECTO_001
+    100018: RULO
+    100020: RULO_001
+    400000: BIFURCADO
+    400002: BIFURCADO_001
+    400004: CUATRIFURCADO___
+    400006: CUATRIFURCADO____001
+    400008: CURVA
+    400010: CURVA_001
+    400012: //RootNode
+    400014: RECTO
+    400016: RECTO_001
+    400018: RULO
+    400020: RULO_001
+    2100000: unnamed
+    2100002: None__TUBO_TORCIDO
+    2300000: BIFURCADO
+    2300002: BIFURCADO_001
+    2300004: CUATRIFURCADO___
+    2300006: CUATRIFURCADO____001
+    2300008: CURVA
+    2300010: CURVA_001
+    2300012: RECTO
+    2300014: RECTO_001
+    2300016: RULO
+    2300018: RULO_001
+    3300000: BIFURCADO
+    3300002: BIFURCADO_001
+    3300004: CUATRIFURCADO___
+    3300006: CUATRIFURCADO____001
+    3300008: CURVA
+    3300010: CURVA_001
+    3300012: RECTO
+    3300014: RECTO_001
+    3300016: RULO
+    3300018: RULO_001
+    4300000: RECTO_001
+    4300002: CURVA_001
+    4300004: RULO_001
+    4300006: BIFURCADO_001
+    4300008: CUATRIFURCADO____001
+    4300010: CUATRIFURCADO___
+    4300012: BIFURCADO
+    4300014: RULO
+    4300016: CURVA
+    4300018: RECTO
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
