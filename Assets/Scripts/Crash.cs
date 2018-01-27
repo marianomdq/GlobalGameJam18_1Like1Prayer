@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Crash : MonoBehaviour {
 
+    public bool isDead = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +20,19 @@ public class Crash : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Obstacle"))
+        {
             Destroy(this.gameObject);
+            isDead = true;        }
+        else
+        {
+            if (other.CompareTag("Emoji"))
+            {
+                Destroy(other);
+            }
+        }
+            
+        
+
     }
 }
    

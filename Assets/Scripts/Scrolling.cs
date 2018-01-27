@@ -14,7 +14,7 @@ public class Scrolling : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(gameObject != null)
+        if(player.activeSelf)
             transform.position += Vector3.back * speed;
         else
         {
