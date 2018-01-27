@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33855925587357372}
   - component: {fileID: 23133668445466544}
   - component: {fileID: 65957553365998416}
+  - component: {fileID: 114073828241041772}
   m_Layer: 0
   m_Name: CURVA
   m_TagString: Untagged
@@ -51,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1018977738377414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.98, z: 2.58}
+  m_LocalPosition: {x: -28.16, y: 1.9229336, z: -9.308401}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4444518499315968}
@@ -125,3 +126,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0610297, y: 2.045453, z: 0.13443685}
   m_Center: {x: 0.030514836, y: 0.022726536, z: 0.31774414}
+--- !u!114 &114073828241041772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1018977738377414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92aef1656661a948acf4296334f23fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawningAnchor: {fileID: 4444518499315968}

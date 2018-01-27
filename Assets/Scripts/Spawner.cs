@@ -6,6 +6,7 @@ public class Spawner : MonoBehaviour {
 
     public GameObject[] Segments;
     public GameObject CurrentSegment;
+    public GameObject TubeContainer;
 
     public static Spawner instance = null;
 
@@ -21,26 +22,17 @@ public class Spawner : MonoBehaviour {
         }
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void Spawn()
+    public void Spawn(GameObject newCurrentSegment)
     {
-        Vector3 SpawningPosition = CurrentSegment.transform.position;
-        Quaternion SpawningRotation = CurrentSegment.transform.rotation;
+        GameObject LastSegment = CurrentSegment;
+        CurrentSegment = newCurrentSegment;
+
+        Vector3 SpawningPosition = newCurrentSegment.GetComponent<Segment>().SpawningAnchor.transform.position;
+        Quaternion SpawningRotation = newCurrentSegment.GetComponent<Segment>().SpawningAnchor.transform.rotation;
         int SegmentIndex = Random.Range(0, Segments.Length-1);
 
-        Instantiate(Segments[SegmentIndex], SpawningPosition, SpawningRotation);
+        Instantiate(Segments[SegmentIndex], SpawningPosition, SpawningRotation, TubeContainer.transform);
 
-
-
-
+        Destroy(LastSegment);
     }
 }
