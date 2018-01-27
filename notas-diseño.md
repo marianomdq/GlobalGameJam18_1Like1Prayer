@@ -2,12 +2,16 @@
 ### Obstaculos/ enemigos:
 
 * tubo
+  * si lo tocas te mata
 * carteles rebort/ block
+  * chocarlos te mata
 * bot: persigue
+  * si te alcanza te mata
 * emojis: :worried:  :angry:
-  - [ ] baja la velocidad
+  - [x] baja la velocidad si los chocás
+     * definir durante cuanto tiempo te baja la velocidad
   - [ ] estorban 
-* Chuckerberg
+* Chuckerberg??
 
 
 ### Recorrido
@@ -27,3 +31,7 @@ En las bifurcaciones depende bifurcacion se cambia ruta por defecto por donde va
 
 * Recorrer tubo sin obstaculos.
 * Camara debe seguir al thumb-up
+
+* Animaciones del thumb cuando choca
+* Aceleración de movimiento
+
