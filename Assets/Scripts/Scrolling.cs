@@ -13,6 +13,6 @@ public class Scrolling : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position += Vector3.forward * speed;
+        transform.position += Vector3.back * speed;
     }
 }
