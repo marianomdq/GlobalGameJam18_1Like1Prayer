@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: cc6deb4e70f02fc4bb7b810355501b89
+timeCreated: 1517076118
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: camino_alternativo
+    100002: camino_alternativo_camino
+    100004: cartel
+    100006: cilindro
+    100008: curva_doble
+    100010: curva_doble_derecha_camino
+    100012: curva_doble_izquierda_camino
+    100014: curva_simple
+    100016: curva_u
+    100018: curva_u_camino
+    100020: curva_y
+    100022: curva_y_derecha_camino
+    100024: curva_y_izquierda_camino
+    100026: //RootNode
+    400000: camino_alternativo
+    400002: camino_alternativo_camino
+    400004: cartel
+    400006: cilindro
+    400008: curva_doble
+    400010: curva_doble_derecha_camino
+    400012: curva_doble_izquierda_camino
+    400014: curva_simple
+    400016: curva_u
+    400018: curva_u_camino
+    400020: curva_y
+    400022: curva_y_derecha_camino
+    400024: curva_y_izquierda_camino
+    400026: //RootNode
+    2100000: Material__Untitled_001
+    2100002: None__Untitled_001
+    2100004: unnamed
+    2100006: None__Untitled
+    2300000: camino_alternativo
+    2300002: camino_alternativo_camino
+    2300004: cartel
+    2300006: cilindro
+    2300008: curva_doble
+    2300010: curva_doble_derecha_camino
+    2300012: curva_doble_izquierda_camino
+    2300014: curva_simple
+    2300016: curva_u
+    2300018: curva_u_camino
+    2300020: curva_y
+    2300022: curva_y_derecha_camino
+    2300024: curva_y_izquierda_camino
+    3300000: camino_alternativo
+    3300002: camino_alternativo_camino
+    3300004: cartel
+    3300006: cilindro
+    3300008: curva_doble
+    3300010: curva_doble_derecha_camino
+    3300012: curva_doble_izquierda_camino
+    3300014: curva_simple
+    3300016: curva_u
+    3300018: curva_u_camino
+    3300020: curva_y
+    3300022: curva_y_derecha_camino
+    3300024: curva_y_izquierda_camino
+    4300000: camino_alternativo_camino
+    4300002: curva_y_izquierda_camino
+    4300004: curva_y_derecha_camino
+    4300006: curva_u_camino
+    4300008: curva_doble_izquierda_camino
+    4300010: curva_doble_derecha_camino
+    4300012: cartel
+    4300014: camino_alternativo
+    4300016: curva_y
+    4300018: curva_u
+    4300020: cilindro
+    4300022: curva_simple
+    4300024: curva_doble
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
