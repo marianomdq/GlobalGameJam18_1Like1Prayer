@@ -1,21 +1,21 @@
 
-== Obstaculos/ enemigos:
+### Obstaculos/ enemigos:
 
 * tubo
 * carteles rebort/ block
 * bot: persigue
-* emojis: :-( X-(
+* emojis: :worried:  :angry:
   - [ ] baja la velocidad
   - [ ] estorban 
 * Chuckerberg
 
 
-== Recorrido
+### Recorrido
 
 * Tramos con bot
 * Tramos sin bot?
 
-== Camara
+### Camara
 
 Hay una línea en medio del tubo por donde se mueve la camara. Es invisible al jugador.
 
@@ -23,7 +23,7 @@ Hay una línea en medio del tubo por donde se mueve la camara. Es invisible al j
 
 En las bifurcaciones depende bifurcacion se cambia ruta por defecto por donde va la camara
 
-== Fase 1
+### Fase 1
 
 * Recorrer tubo sin obstaculos.
 * Camara debe seguir al thumb-up
