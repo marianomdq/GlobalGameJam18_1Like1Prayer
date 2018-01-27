@@ -5,6 +5,7 @@ using UnityEngine;
 public class Scrolling : MonoBehaviour {
 
     public float speed = 2f;
+    public GameObject player;
 
 	// Use this for initialization
 	void Start () {
@@ -13,6 +14,13 @@ public class Scrolling : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position += Vector3.back * speed;
+        if(gameObject != null)
+            transform.position += Vector3.back * speed;
+        else
+        {
+            Debug.Log("Game Over");
+
+        }
+            
     }
 }
