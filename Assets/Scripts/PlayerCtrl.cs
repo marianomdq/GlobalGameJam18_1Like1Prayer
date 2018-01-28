@@ -41,10 +41,11 @@ public class PlayerCtrl : MonoBehaviour {
 
         // Rotation
         transform.Rotate(moveHorizontal * Vector3.up * 2);
-        PlayerMesh.transform.Rotate(moveVertical * Vector3.right * 2);
-        
-        // Movement
-        transform.position += -PlayerMesh.transform.forward * speed;
+        if(PlayerMesh != null)
+        {
+            PlayerMesh.transform.Rotate(moveVertical * Vector3.right * 2);
+            transform.position += -PlayerMesh.transform.forward * speed;
+        }
     }
 
     void Accelerate()
