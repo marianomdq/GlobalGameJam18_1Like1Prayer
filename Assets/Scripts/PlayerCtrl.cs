@@ -9,6 +9,7 @@ public class PlayerCtrl : MonoBehaviour {
     public float initialSpeed = 0.02f;
     public float topSpeed = 0.1f;
     public float accelerationRate = 1;
+    public float rotationLimit = 45f;
 
     // Use this for initialization
     void Start () {
@@ -32,11 +33,28 @@ public class PlayerCtrl : MonoBehaviour {
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-
-        // Rotation
+        float limit = rotationLimit / 100;
+       
+        // Rotation       
         transform.Rotate(moveHorizontal * Vector3.up * 2);
+        if (transform.rotation.y > 0 && transform.rotation.y > limit)
+        {
+            transform.rotation = new Quaternion(transform.rotation.x, limit, transform.rotation.z, transform.rotation.w);
+        } else if (transform.rotation.y < 0 && transform.rotation.y < -limit)
+        {
+            transform.rotation = new Quaternion(transform.rotation.x, -limit, transform.rotation.z, transform.rotation.w);
+        }
+
         PlayerMesh.transform.Rotate(moveVertical * Vector3.right * 2);
-        
+        if (PlayerMesh.transform.rotation.x > 0 && PlayerMesh.transform.rotation.x > limit)
+        {
+            PlayerMesh.transform.rotation = new Quaternion(limit, PlayerMesh.transform.rotation.y, PlayerMesh.transform.rotation.z, PlayerMesh.transform.rotation.w);
+        }
+        else if (PlayerMesh.transform.rotation.x < 0 && PlayerMesh.transform.rotation.x < -limit)
+        {
+            PlayerMesh.transform.rotation = new Quaternion(-limit, PlayerMesh.transform.rotation.y, PlayerMesh.transform.rotation.z, PlayerMesh.transform.rotation.w);
+        }
+
         // Movement
         transform.position += PlayerMesh.transform.forward * speed;
     }
