@@ -55,4 +55,13 @@ public class Mover : MonoBehaviour {
             speed = Mathf.Clamp(speed - (speed * accelerationRate), decelerationLimit, 1000);
         }
     }
+
+    IEnumerator Loop()
+    {
+        while (true)
+        {
+            transform.position = new Vector3(0, 0, 0);
+            yield return new WaitForSeconds(loopTime);
+        }
+    }
 }

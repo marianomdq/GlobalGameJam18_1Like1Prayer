@@ -1,21 +1,17 @@
 fileFormatVersion: 2
-guid: ac79102b5cbc20149a9d254a59856911
-timeCreated: 1517061516
+guid: 36964030c517fe24a9c52512e6101510
+timeCreated: 1517070943
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material_001
-    2100002: Material_004
-    2100004: Material_003
-    2100006: Material_002
-    2100008: Material_007__Untitled_001
-    2100010: Material_008__Untitled_001
-    2100012: Material_009__Untitled_001
-    2100014: Material_006__Untitled_001
-    2100016: Material_005__Untitled_001
+    2100000: Material_007__Untitled_001
+    2100002: Material_008__Untitled_001
+    2100004: Material_009__Untitled_001
+    2100006: Material_006__Untitled_001
+    2100008: Material_005__Untitled_001
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube

@@ -1,81 +1,35 @@
 fileFormatVersion: 2
-guid: eb99bcc3a45c0464baa24d21b97c53d8
-timeCreated: 1517081624
+guid: 8983e3acdd67a8541a927e9ddbf2f6d6
+timeCreated: 1517060276
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: camino_alternativo
-    100002: camino_alternativo_camino
-    100004: cartel
-    100006: cilindro
-    100008: cilindro_camino
-    100010: curva_doble
-    100012: curva_doble_camino
-    100014: curva_simple
-    100016: curva_simple_camino
-    100018: curva_u
-    100020: curva_u_camino
-    100022: curva_y
-    100024: curva_y_camino
-    100026: //RootNode
-    400000: camino_alternativo
-    400002: camino_alternativo_camino
-    400004: cartel
-    400006: cilindro
-    400008: cilindro_camino
-    400010: curva_doble
-    400012: curva_doble_camino
-    400014: curva_simple
-    400016: curva_simple_camino
-    400018: curva_u
-    400020: curva_u_camino
-    400022: curva_y
-    400024: curva_y_camino
-    400026: //RootNode
-    2100000: Material__Untitled_001
+    100000: cilindro
+    100002: curva_doble
+    100004: curva_simple
+    100006: curva_triple
+    100008: //RootNode
+    400000: cilindro
+    400002: curva_doble
+    400004: curva_simple
+    400006: curva_triple
+    400008: //RootNode
+    2100000: unnamed
     2100002: None__Untitled_001
-    2100004: unnamed
-    2100006: None__Untitled
-    2300000: camino_alternativo
-    2300002: camino_alternativo_camino
-    2300004: cartel
-    2300006: cilindro
-    2300008: cilindro_camino
-    2300010: curva_doble
-    2300012: curva_doble_camino
-    2300014: curva_simple
-    2300016: curva_simple_camino
-    2300018: curva_u
-    2300020: curva_u_camino
-    2300022: curva_y
-    2300024: curva_y_camino
-    3300000: camino_alternativo
-    3300002: camino_alternativo_camino
-    3300004: cartel
-    3300006: cilindro
-    3300008: cilindro_camino
-    3300010: curva_doble
-    3300012: curva_doble_camino
-    3300014: curva_simple
-    3300016: curva_simple_camino
-    3300018: curva_u
-    3300020: curva_u_camino
-    3300022: curva_y
-    3300024: curva_y_camino
-    4300000: camino_alternativo_camino
-    4300002: cilindro_camino
-    4300004: curva_doble_camino
-    4300006: curva_simple_camino
-    4300008: curva_y_camino
-    4300010: curva_u_camino
-    4300012: cartel
-    4300014: camino_alternativo
-    4300016: curva_y
-    4300018: curva_u
-    4300020: cilindro
-    4300022: curva_simple
-    4300024: curva_doble
+    2100004: None__Untitled
+    2300000: cilindro
+    2300002: curva_doble
+    2300004: curva_simple
+    2300006: curva_triple
+    3300000: cilindro
+    3300002: curva_doble
+    3300004: curva_simple
+    3300006: curva_triple
+    4300000: curva_triple
+    4300002: cilindro
+    4300004: curva_simple
+    4300006: curva_doble
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
